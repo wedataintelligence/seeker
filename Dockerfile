@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:20.04
 ENV DEBIAN_FRONTEND=teletype
 WORKDIR seeker/
 RUN echo "Asia/Singapore" > /etc/timezone
